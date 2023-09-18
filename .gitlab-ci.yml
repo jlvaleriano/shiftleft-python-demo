@@ -7,11 +7,8 @@ stages:
   - review
   - dast
   - staging
-  - canary
-  - production
   - performance
   - loadtest
-  - cleanup  
 
 include:
   - template: Jobs/Build.gitlab-ci.yml
